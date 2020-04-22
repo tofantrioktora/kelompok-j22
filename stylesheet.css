@@ -5,13 +5,16 @@ body {
 }
 
 header {
-	background-color: #B71C1C;
+	background-color: rgba(213, 0, 0,0.7);
 	color: white;
 	height : 80px;
+	width: 100%;
+	position:fixed;
 	top: 0;
+	z-index: 10;
 }
 
-.container {
+header .box {
 	max-width: 1100px;
 	margin: auto;
 	padding: 0.5px 10px;
@@ -56,5 +59,26 @@ header {
 .header-kanan span:hover {
 	background-color: rgba(255, 235, 238,0.3);
 }
+
+.utama{
+	background-image: url(background-utama.png);
+	background-size: cover;
+	color: white;
+	text-align: center;
+}
+
+.utama .container {
+	background-color: rgba(63, 81, 181,0.7);
+	padding: 100px 0px;
+}
+.utama h1{
+	font-size: 80px;
+}
+
+.utama h2{
+	font-size: 40px;
+}
+
+
 
 
