@@ -1,0 +1,60 @@
+body {
+	margin: 0;
+	font-family: "Lucida Grande" ;
+	background-color: #FCE4EC ;
+}
+
+header {
+	background-color: #B71C1C;
+	color: white;
+	height : 80px;
+	top: 0;
+}
+
+.container {
+	max-width: 1100px;
+	margin: auto;
+	padding: 0.5px 10px;
+}
+
+.header-logo {
+	float: left;
+	font-size: 40px;
+	padding: 0px 10px;
+}
+
+.header-logo:hover {
+	background-color: rgba(198, 40, 40,1.0);
+	display: inline-block;
+	border-radius: 10px;
+}
+
+.header-kiri ul {
+	margin-left: 100px;
+}
+
+.header-kiri li {
+	list-style: none;
+	float: left;
+	padding: 15px 15px;
+}
+
+.header-kiri li:hover {
+	background-color: rgba(255, 235, 238,0.6);
+	display: inline-block;
+	border-radius: 10px;
+}
+
+.header-kanan span{
+	float: right;
+	padding: 15px 30px;
+	background-color: rgba(255, 235, 238,0.6);
+	display: inline-block;
+	border-radius: 10px;
+}
+
+.header-kanan span:hover {
+	background-color: rgba(255, 235, 238,0.3);
+}
+
+
