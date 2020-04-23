@@ -1,0 +1,244 @@
+body {
+	margin: 0;
+	font-family: "Lucida Grande" ;
+	background-color: #FCE4EC ;
+}
+
+
+/* bagian header   */
+header {
+	background-color: rgba(213, 0, 0,0.7);
+	color: white;
+	height : 80px;
+	width: 100%;
+	position:fixed;
+	top: 0;
+	z-index: 10;
+}
+
+.box {
+	max-width: 1100px;
+	margin: auto;
+	padding: 0.5px 10px;
+	text-align: center;
+}
+
+.header-logo {
+	float: left;
+	font-size: 41px;
+	padding: 15px 10px;
+	margin-right:100px;
+	font-weight: bold;
+}
+
+.header-logo:hover {
+	background-color: rgba(198, 40, 40,1.0);
+	display: inline-block;
+	border-radius: 10px;
+}
+
+
+.header-kanan li {
+	list-style: none;
+	float: left;
+	margin-left: 10px;
+}
+
+.header-kanan li a{
+	color: white;
+	float: right;
+	padding: 15px 30px;
+	display: inline-block;
+	border-radius: 10px;
+}
+
+.header-kanan a:hover {
+	background-color: rgba(255, 235, 238,0.6);
+}
+
+.header-kanan a span {
+	background-color: rgba(236, 64, 122,1.0);
+	color: white;
+	float: right;
+	padding: 15px 30px;
+	border-radius: 10px;
+}
+
+.header-kanan a span:hover {
+	background-color: rgba(236, 64, 122,0.5);
+}
+
+/* bagian Utama*/
+.utama{
+	background-image: url(background-utama.png);
+	background-size: cover;
+	color: white;
+	text-align: center;
+}
+
+.utama .container {
+	background-color: rgba(63, 81, 181,0.7);
+	padding: 100px 0px;
+}
+.utama h1{
+	font-size: 80px;
+}
+
+.utama h2{
+	font-size: 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  margin: 0px 10px;
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  background-color: #9C27B0;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+
+/* bagian extra1*/
+.extra-1 {
+	color: black;
+	text-align: center;	
+	border-top: 1px solid #eee;
+	padding-bottom: 80px;
+
+}
+
+.ketua-team {
+	width: 300px;
+	height: 160px;
+	margin: auto;
+	margin-top: 40px;
+
+}
+
+.ketua-team1 {
+	float: left;
+}
+
+.ketua-team1 img{
+	width: 120px;
+}
+
+.ketua-team2 {
+	float:right;
+	text-align:left;
+	padding: 25px 5px;
+}
+
+
+.anggota {
+	max-width: 1100px;
+	list-style: none;
+	height: 160px;
+	margin: auto;
+	margin-top: 40px;
+}
+
+.anggota li {
+	float: left;
+	width: 25%;
+}
+
+li .anggota-team {
+	display: inline-block;
+}
+
+.anggota-team img {
+	width: 80px;
+}
+
+.anggota-team1 {
+	float: left;
+}
+
+.anggota-team2 {
+	float: right;
+	text-align: left;
+	margin-left: 10px;
+}
+
+/* bagian extra2*/
+
+
+.box1{
+	float: left; display:inline-block;border:none;width:50%
+}
+
+.box2{
+	float: right;display:inline-block;border:none;width:50%
+}
+
+.box1 .input-animasi {
+	float: left;
+}
+
+.box2 .input-animasi {
+	float: left;
+}
+
+.input-animasi{
+	height:30px;
+	transition:width 0.4s ease-in-out;
+}
+
+.input-animasi:focus{
+	width:95%!important;
+}
+
+
+textarea {
+	margin-top:20px;
+	width: 100%;
+	height: 100px;
+}
+
+
+/* bagian footer */
+footer {
+	background-color: #FFCDD2;
+	height : 80px;
+}
+
+
+.logo-footer {
+	float: left;
+	font-size: 40px;
+	margin-right:100px;
+	font-weight: bold;
+	padding: 18px;
+}
+
+.motto-footer {
+	float: right;
+	padding-right: 400px;
+	text-align: center;
+	font-weight: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
