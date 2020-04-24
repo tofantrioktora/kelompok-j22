@@ -52,6 +52,10 @@
 		float: left;
 	}
 	
+	.input-animasi:focus{
+		width:100%!important;
+	}
+	
 	.extra-1 {
 		height: 850px;
 	}
