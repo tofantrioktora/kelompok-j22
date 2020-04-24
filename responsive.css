@@ -26,6 +26,10 @@
 		display: block;
 	}
 	
+	.box .menu-icon:hover {
+		background-color: #880E4F;
+	}
+	
 	.utama h1{
 		font-size: 50px;
 	}
