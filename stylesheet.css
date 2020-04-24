@@ -19,15 +19,15 @@ header {
 .box {
 	max-width: 1100px;
 	margin: auto;
-	padding: 10px 5px;
+	padding: 0px 5px;
 	text-align: center;
 }
 
 .header-logo {
 	float: left;
 	font-size: 41px;
-	padding: 6px 10px;
-	margin-right:100px;
+	padding: 0px 10px;
+	margin-right:90px;
 	font-weight: bold;
 }
 
@@ -40,7 +40,7 @@ header {
 .box .menu-icon {
   color: white;
   float: right;
-  padding: 6px 10px;
+  padding: 6px 5px;
   font-size: 41px;
   display: none;
 }
@@ -54,9 +54,10 @@ header {
 .header-kanan li a{
 	color: white;
 	float: right;
-	padding: 7px 30px;
+	padding: 10px 30px;
 	display: inline-block;
 	border-radius: 10px;
+	font-size: 26px;
 }
 
 .header-kanan a:hover {
@@ -67,8 +68,9 @@ header {
 	background-color: rgba(236, 64, 122,1.0);
 	color: white;
 	float: right;
-	padding: 7px 30px;
+	padding: 10px 30px;
 	border-radius: 10px;
+	font-size: 26px;
 }
 
 .header-kanan a span:hover {
@@ -100,13 +102,18 @@ a {
 }
 
 .btn {
-  margin: 0px 10px;
-  padding: 12px 24px;
+  margin: 0px 2px;
+  padding: 12px 5px;
   color: white;
   display: inline-block;
   opacity: 0.8;
   border-radius: 4px;
   background-color: #9C27B0;
+  font-size: 24px;
+}
+
+.daftar {
+	padding: 12px 25px;
 }
 
 .btn:hover {
@@ -139,13 +146,13 @@ a {
 }
 
 .ketua-team img {
-	width: 200px;
+	width: 150px;
 	float: right;
 }
 
 .ketua-team .detail {
-	padding-top: 50px;
-	padding-left: 20px;
+	padding-top: 10px;
+	padding-left: 10px;
 	text-align: left;
 	font-size: 24px;
 }
@@ -161,28 +168,40 @@ img {
 }
 
 .anggota-team .detail {
-	padding-top: 10px;
+	padding-top:5px;
 	padding-left: 5px;
 	text-align: left;
 	font-size: 14px;
+	width: 120px;
+	margin:auto;
+}
+
+.anggota-team .detail p {
+	margin:5px 0px;
 }
 
 /* bagian extra2*/
 
+.kotak {
+	max-width: 1100px;
+	margin: auto;
+	padding: 5px 80px;
+	text-align: center;	
+}
 
-.box1{
+.kotak1{
 	float: left; display:inline-block;border:none;width:50%
 }
 
-.box2{
+.kotak2{
 	float: right;display:inline-block;border:none;width:50%
 }
 
-.box1 .input-animasi {
+.kotak1 .input-animasi {
 	float: left;
 }
 
-.box2 .input-animasi {
+.kotak2 .input-animasi {
 	float: right;
 }
 
@@ -206,6 +225,10 @@ textarea {
 	text-align: center;
 	padding-top:50px;
 }
+.kotak .btn {
+	width:100%;
+	margin-bottom:40px;
+}
 
 
 /* bagian footer */
@@ -228,13 +251,14 @@ footer {
 }
 
 .motto-footer {
-	padding: 15px;
+	padding: 10px;
 	text-align: center;
 	font-weight: 10px;
 }
 
 .motto-footer p {
 	margin:auto;
+	font-size: 26px;
 }
 
 
